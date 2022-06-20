@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Titillium+Web:wght@200&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 15px;
+
+}
+.imglogo {
+    width: 12%;
+    margin: 2px solid;
+    margin-top: 10px;
+
+}
+#menu_h {
+    background-color: #1c1c1c;
+}
+#menu_h ul {
+    max-width: 1000px;
+    list-style: none;
+    padding: 0;
+    background-color: #1c1c1c;
+}
+#menu_h ul li {
+    display: inline;
+    margin-bottom: 0;
+}
+#menu_h ul li a {
+    color: #ffd700;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .4s;
+}
+#menu_h ul li a:hover {
+    background-color: #6959cd;
+}
+
+#menu_h li:first-child a {
+    float: left;
+    border: 10px;
+    
+}
